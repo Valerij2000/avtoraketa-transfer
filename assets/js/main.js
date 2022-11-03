@@ -523,8 +523,6 @@
     $videoSrc = $(this).data("src");
   });
 
-  console.log($videoSrc);
-
   // when the modal is opened autoplay it
   $('#mdllVideo').on('shown.bs.modal', function (e) {
 
