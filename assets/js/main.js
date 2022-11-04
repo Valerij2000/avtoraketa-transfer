@@ -248,17 +248,6 @@
     });
 
     /*-----------------------------
-      bxslider for Logos (animation like news)
-    -----------------------------*/
-    $('.bxslider').bxSlider({
-      minSlides: 1,
-      maxSlides: 8,
-      slideWidth: 160,
-      slideMargin: 0,
-      ticker: true,
-      speed: 20000
-    });
-    /*-----------------------------
       Mousehover for dropdown
     -----------------------------*/
     $('.dropdown.dropdown-hover').hover(
@@ -348,11 +337,4 @@
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   });
-
-  /*-----------------------------
-   fixSide_scroll
- -----------------------------*/
-  var sticky = new Sticky('.fixSide_scroll');
-
-
 }(jQuery));
