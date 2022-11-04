@@ -14081,7 +14081,7 @@ software_web
 }
 
 .icon-fixed .fixed.img02 {
-  top: 26%;
+  top: 20%;
   left: 54%;
 }
 
@@ -20511,6 +20511,7 @@ html:not(.no-js) [data-aos="fade-up"] {
 .app_smartphone .btn--app {
   display: inline-block;
   margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .app_smartphone .btn--app .icon {
