@@ -600,11 +600,11 @@ img {
 .loading_overlay .loader_logo .logo {
   width: 100%;
   height: auto;
-  -webkit-animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
-  -moz-animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
-  -o-animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
-  -ms-animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
-  animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  -webkit-animation: text-focus-in 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  -moz-animation: text-focus-in 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  -o-animation: text-focus-in 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  -ms-animation: text-focus-in 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  animation: text-focus-in 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
 }
 
 /*-----------------------------
