@@ -1,40 +1,3 @@
-/*
-    js of main
-    --------------------------
-    ** hover Button (letter Effect)
-    --------------------------
-    ** Effect on Menu for Mobile
-    --------------------------
-    ** Smooth Scrollspy to (For Navbar)
-    --------------------------
-    ** Collapse - icon in Collapse
-    --------------------------
-    ** Dropdown Select for Language
-    --------------------------
-    ** Hide and Show Password
-    --------------------------
-    ** animation (page of Fire Report) by anime.js
-    --------------------------
-    ** loading before open page
-    --------------------------
-    ** Back to top with progress indicator
-    --------------------------
-    --------------------------
-    ** Video Modal
-    --------------------------
-    ** COUNTER-UP JQUERY PLUGIN
-    --------------------------
-    ** show Toast
-    --------------------------
-    ** animation on Scroll AOS.js
-    --------------------------
-    ** Mousehover for dropdown
-    --------------------------
-    **cover-parallax
-    --------------------------
-
-*/
-
 (function ($) {
   "use strict";
 
@@ -274,8 +237,6 @@
       return false;
     });
 
-    $(".countdown").countdown();
-
     /*-----------------------------
       progress-bar
     -----------------------------*/
@@ -297,16 +258,6 @@
       ticker: true,
       speed: 20000
     });
-
-
-    /*-----------------------------
-      COUNTER-UP JQUERY PLUGIN
-    -----------------------------*/
-    $('.counter').counterUp({
-      delay: 10,
-      time: 1000
-    });
-
     /*-----------------------------
       Mousehover for dropdown
     -----------------------------*/
@@ -386,39 +337,6 @@
     once: false, // whether animation should happen only once - while scrolling down
     duration: 500, // values from 0 to 3000, with step 50ms
   });
-
-  /*-----------------------------
-    cover-parallax
-  -----------------------------*/
-  var image = document.getElementsByClassName('cover-parallax');
-  new simpleParallax(image, {
-    delay: .6,
-    transition: 'cubic-bezier(0,0,0,1)'
-  });
-
-  var image = document.getElementsByClassName('basic-parallax');
-  new simpleParallax(image, {
-    delay: .6,
-    transition: 'cubic-bezier(0,0,0,1)'
-  });
-
-  var image = document.getElementsByClassName('horizontal-parallax');
-  new simpleParallax(image, {
-    orientation: 'right'
-  });
-
-  var image = document.getElementsByClassName('scale-parallax');
-  new simpleParallax(image, {
-    scale: 1.5
-  });
-
-  var image = document.getElementsByClassName('transition-parallax');
-  new simpleParallax(image, {
-    delay: .6,
-    transition: 'cubic-bezier(0,0,0,1)'
-  });
-
-
   /*-----------------------------
     Checkbox Select
   -----------------------------*/
