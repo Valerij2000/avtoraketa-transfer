@@ -19,19 +19,12 @@
     --------------------------
     ** Back to top with progress indicator
     --------------------------
-    ** Swiper for Testimonial
-    --------------------------
-    ** Swiper WorkSpace
-    --------------------------
-    ** Swiper for Testimonial (Interior)
     --------------------------
     ** Video Modal
     --------------------------
     ** COUNTER-UP JQUERY PLUGIN
     --------------------------
     ** show Toast
-    --------------------------
-    ** ScrollMagic
     --------------------------
     ** animation on Scroll AOS.js
     --------------------------
@@ -281,132 +274,6 @@
       return false;
     });
 
-    /*-----------------------------
-      Slider and Swiper for Testimonial
-    -----------------------------*/
-    var galleryThumbs = new Swiper('.img_persong', {
-      spaceBetween: 10,
-      slidesPerView: 4,
-      freeMode: true,
-      watchSlidesVisibility: true,
-      watchSlidesProgress: true,
-    });
-    var galleryTop = new Swiper('.content_swiper', {
-      spaceBetween: 10,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: true,
-      },
-      thumbs: {
-        swiper: galleryThumbs
-      }
-    });
-
-    /*-----------------------------
-      Swiper WorkSpace
-    -----------------------------*/
-    var galleryThumbs = new Swiper('.person_thumbs', {
-      spaceBetween: 10,
-      slidesPerView: 4,
-      freeMode: true,
-      watchSlidesVisibility: true,
-      watchSlidesProgress: true,
-    });
-    var galleryTop = new Swiper('.swipe_circle', {
-      spaceBetween: 10,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: true,
-      },
-      thumbs: {
-        swiper: galleryThumbs
-      }
-    });
-
-    /*-----------------------------
-    Slider and Swiper for Testimonial (Interior)
-    -----------------------------*/
-    var swiper = new Swiper(".swiper_default", {
-      pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true,
-      },
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: true,
-      },
-    });
-
-    /*-----------------------------
-      swip__topic
-    -----------------------------*/
-
-    var swiper = new Swiper('.swipe_basic_topic', {
-      slidesPerView: 4,
-      spaceBetween: 30,
-      freeMode: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      breakpoints: {
-        240: {
-          slidesPerView: 1,
-          spaceBetween: 0,
-        },
-        540: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 30,
-        },
-      }
-    });
-
-    /*-----------------------------
-      feature_strories
-    -----------------------------*/
-
-    var swiper = new Swiper('.feature_strories', {
-      slidesPerView: 4,
-      spaceBetween: 30,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      breakpoints: {
-        240: {
-          slidesPerView: 1,
-          spaceBetween: 0,
-        },
-        540: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 30,
-        },
-      }
-    });
-
-    /*-----------------------------
-      countdown Timer
-    -----------------------------*/
     $(".countdown").countdown();
 
     /*-----------------------------
@@ -438,38 +305,6 @@
     $('.counter').counterUp({
       delay: 10,
       time: 1000
-    });
-
-    /*-----------------------------
-      swiper__center
-    -----------------------------*/
-    var swiper = new Swiper('.swiper__center', {
-      slidesPerView: 3,
-      centeredSlides: false,
-      spaceBetween: 30,
-      grabCursor: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      breakpoints: {
-        240: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        540: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-      }
     });
 
     /*-----------------------------
@@ -584,8 +419,6 @@
   });
 
 
-
-
   /*-----------------------------
     Checkbox Select
   -----------------------------*/
@@ -594,66 +427,6 @@
     $(this).addClass('active');
   });
 
-  /*-----------------------------
-      feature_strories
-    -----------------------------*/
-
-  var swiper = new Swiper('.blog-slider', {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    breakpoints: {
-      240: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-      540: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-    }
-  });
-
-  /*-----------------------------
-      swiper_vertical
-    -----------------------------*/
-  var swiper = new Swiper('.swiper_vertical', {
-    direction: 'vertical',
-    slidesPerView: 1,
-    paginationClickable: true,
-    spaceBetween: 20,
-    loop: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    // mousewheel: {
-    //   enable: true
-    // },
-  });
-
-  /*-----------------------------
-     tooltip
-   -----------------------------*/
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   });
@@ -665,9 +438,3 @@
 
 
 }(jQuery));
-
-
-/*-----------------------------
-  ScrollMagic (init controller)
------------------------------*/
-var controller = new ScrollMagic.Controller();
