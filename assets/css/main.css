@@ -571,11 +571,11 @@ img {
 .loaded_page .loading_overlay {
   opacity: 0;
   pointer-events: none;
-  -webkit-transition: opacity 0.6s !important;
-  -moz-transition: opacity 0.6s !important;
-  -o-transition: opacity 0.6s !important;
-  -ms-transition: opacity 0.6s !important;
-  transition: opacity 0.6s !important;
+  -webkit-transition: opacity 0.3s !important;
+  -moz-transition: opacity 0.3s !important;
+  -o-transition: opacity 0.3s !important;
+  -ms-transition: opacity 0.3s !important;
+  transition: opacity 0.3s !important;
 }
 
 .loading_overlay {
@@ -600,11 +600,11 @@ img {
 .loading_overlay .loader_logo .logo {
   width: 100%;
   height: auto;
-  -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
-  -moz-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
-  -o-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
-  -ms-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
-  animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  -webkit-animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  -moz-animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  -o-animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  -ms-animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
 }
 
 /*-----------------------------
