@@ -3511,8 +3511,8 @@ header.no_blur {
 }
 
 header .navbar {
-  height: 80px;
-  padding: 0;
+  height: auto;
+  padding: 12px 0 0;
 }
 
 header .navbar .navbar-brand {
@@ -4207,7 +4207,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   .demo_3.banner_section {
     height: 100%;
     padding-bottom: 3rem;
-    padding-top: 6rem;
+    padding-top: 2rem;
   }
 }
 
@@ -9032,7 +9032,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 
 .products_section .item_pro p {
   color: #9da6af;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -14076,18 +14076,18 @@ software_web
 }
 
 .icon-fixed .fixed.img01 {
-  top: 10%;
-  left: 40%;
+  top: 9%;
+  left: 77%;
 }
 
 .icon-fixed .fixed.img02 {
-  top: 20%;
+  top: 25%;
   left: 54%;
 }
 
 @media (max-width: 479.98px) {
   .icon-fixed .fixed.img02 {
-    left: 70%;
+    left: 77%;
   }
 }
 
@@ -14108,7 +14108,7 @@ software_web
 }
 
 .icon-fixed .fixed.img05 {
-  top: 86%;
+  bottom: 4%;
   right: 24%;
 }
 
@@ -14151,7 +14151,7 @@ software_web
 }
 
 .icon-fixed .fixed.img10 {
-  top: 6%;
+  top: 2%;
   right: 26%;
 }
 
@@ -21299,7 +21299,6 @@ html:not(.no-js) [data-aos="fade-up"] {
 .modal.mdllaccount .form_account .head_account {
   justify-content: center;
   align-items: center;
-  text-align: center;
   margin-bottom: 1.5rem;
 }
 
@@ -21606,7 +21605,7 @@ html:not(.no-js) [data-aos="fade-up"] {
   top: 13px;
 }
 
-.toast.toast_demo h5 {
+.toast.toast_demo .h5 {
   font-size: 16px;
   font-weight: 500;
   color: #0b2238;
@@ -23210,4 +23209,33 @@ html:not(.no-js) [data-aos="fade-up"] {
 .sh_footer_email.bg_fitness {
   background-color: #06121e;
   padding-top: 340px;
+}
+
+.logo-slogan {
+  font-size: 11px;
+}
+
+.img-person {
+  width: 40px;
+}
+
+@media (min-width: 768.98px) {
+  .list-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.list-group-item {
+  border: none;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.app_smartphone {
+  position: relative;
+  z-index: 20;
 }
